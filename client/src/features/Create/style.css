@@ -1,0 +1,79 @@
+.split-container{
+    height: 100vh;
+    max-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.split-container .form-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-container form{
+    width: 800px;
+    padding: 20px;
+    background-color: #e7f1de;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #074824;
+}
+
+
+.form-container .heading{
+    grid-column: 1/3;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.backto-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #e7f5db;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 4px;
+    background-color: rgb(8, 88, 8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-container form input,
+.form-container form textarea{
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: 6px;
+    outline: 0;
+    border: 1px solid #c9d6d2;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    resize: none;
+}
+
+
+.form-container textarea{
+    height: 100px;
+}
+
+.form-container button{
+    grid-column: 1/3;
+    cursor: pointer;
+    padding: 8px 10px;
+    color: #e7f5db;
+    background-color:#074824;
+    border: 1px solid #131413;
+    outline: 0;
+    border-radius: 4px;
+    width: fit-content;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

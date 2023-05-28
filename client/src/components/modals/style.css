@@ -1,0 +1,91 @@
+.modal-container{
+    position: absolute;
+    background-color: #00000096;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-box{
+    width: 400px;
+    background-color: #e7f5db;
+    padding: 16px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    margin: 16px;
+    color: rgb(1, 67, 1);
+}
+
+.modal-box h2{
+    text-align: start;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(42, 131, 42);
+}
+
+.pr-title{
+    text-align: start;
+    margin-bottom: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(56, 171, 56);
+}
+
+.pr-desc{
+    text-align: start;
+    color: rgb(88, 178, 94);
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.pr-fund{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: 0;
+    border: 1px solid rgb(8, 88, 8);
+}
+
+.pr-fund-btn{
+    border: 1px solid rgb(8, 88, 8);
+    background: rgb(8, 88, 8);
+    color: #cee1c9;
+    width: 20%;
+    padding: 10px;
+    outline: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    flex-basis: 50%;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.exp-msg{
+    color: #e75410;
+    text-align: start;
+}
+
+.fund-modal{
+    color: rgb(88, 178, 94);
+    font-size: 12px;
+}
+
+.fund-modal span{
+    color:rgb(8, 88, 8);
+    font-weight: bold;
+}
